@@ -1,0 +1,97 @@
+.blogs {
+    background-color: #ededed;
+    padding: 20px 0 50px;
+}
+.blogs-categories {
+    padding: 35px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogs-categories span {
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 20px;
+    margin: 0 5px;
+    border-radius: 4px;
+    color: #555;
+    transition: 0.3s;
+}
+.blogs-categories span:hover {
+    color: #000;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.486);
+}
+section.blogs .container {
+    max-width: 1000px;
+}
+.single-blog-container {
+    display: grid;
+    grid-template-columns: 400px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #06060615;
+}
+.single-blog-container.left-content {
+    grid-template-columns: auto 400px;
+}
+.blog-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-content {
+    padding: 30px;
+}
+span.blog-date {
+    font-size: 14px;
+}
+.blog-title {
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 8px;
+    margin-bottom: 17px;
+}
+.blog-title:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    height: 2px;
+    background-color: #639;
+    width: 60px;
+}
+.blog-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 6;
+}
+button.blog-read-more-btn {
+    cursor: pointer;
+    background: none;
+    border: 1px solid #639;
+    padding: 8px 27px;
+    color: #639;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+button.blog-read-more-btn:hover {
+    background-color: #639;
+    color: #fff;
+}
+@media (max-width: 780px) {
+    .single-blog-container {
+        display: block;
+    }
+    .single-blog-container.left-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .blogs-categories span {
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+}

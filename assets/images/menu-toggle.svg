@@ -1,0 +1,9 @@
+<svg id="Menu_Component" data-name="Menu Component" xmlns="http://www.w3.org/2000/svg" width="65" height="67" viewBox="0 0 65 67">
+  <g id="Top_main_menu" data-name="Top main menu" transform="translate(-1739 -24)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1739 24)" fill="#7464f4" stroke="#707070" stroke-width="1">
+      <circle cx="32.5" cy="32.5" r="32.5" stroke="none"/>
+      <circle cx="32.5" cy="32.5" r="32" fill="none"/>
+    </g>
+    <text id="_" data-name="+" transform="translate(1755 78)" fill="#fff" font-size="59" font-family="ArialMT, Arial"><tspan x="0" y="0">+</tspan></text>
+  </g>
+</svg>

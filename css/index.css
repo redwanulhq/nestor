@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600&family=Jost:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;700;900&display=swap");
+@import "custom-booking.css";
+@import "booking.css";
+@import "header.css";
+@import "blog-cover.css";
+@import "blogs.css";
+@import "faq.css";
+@import "testimonials.css";
+@import "footer.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0 !important;
+}
+li {
+    line-height: 25px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
